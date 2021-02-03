@@ -1,0 +1,19 @@
+h1 {
+  animation: moveX 3s ease forwards;
+}
+@keyframes moveX {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(150px);
+    opacity: 1;
+    font-size: 100px;
+  }
+}
+
+500 石丸
+1000 東江
+1500 佐藤
+2000 田中
